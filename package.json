@@ -1,0 +1,14 @@
+{
+  "name": "unified-arb-scanner",
+  "version": "1.0.0",
+  "description": "Unified crypto arbitrage scanner: CEX-to-CEX, CEX-to-DEX, triangular, and funding rate",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.17.0"
+  }
+}
